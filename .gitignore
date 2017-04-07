@@ -39,6 +39,7 @@ node_modules/
 jspm_packages/
 dist/
 .idea/
+_lib/
 
 # Typescript v1 declaration files
 typings/
