@@ -9,5 +9,16 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="html5shiv" level="application" />
+    <orderEntry type="library" name="respond" level="application" />
+    <orderEntry type="library" name="amcharts" level="application" />
+    <orderEntry type="library" name="gauge" level="application" />
+    <orderEntry type="library" name="export" level="application" />
+    <orderEntry type="library" name="light" level="application" />
+    <orderEntry type="library" name="radar" level="application" />
+    <orderEntry type="library" name="none" level="application" />
+    <orderEntry type="library" name="d3" level="application" />
+    <orderEntry type="library" name="b6280644-983b-4d09-b194-cbedc4a3cd81" level="application" />
+    <orderEntry type="library" name="b4cf32adc4" level="application" />
   </component>
 </module>

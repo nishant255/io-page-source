@@ -6,6 +6,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.initConfig({ pkg: grunt.file.readJSON('package.json'),
         watch: {
             less: {
@@ -26,7 +27,7 @@ module.exports = function(grunt) {
         },
         copy: {
             main: {
-                src: ['**/*',  '!**/node_modules/**','!.gitgnore','!package.json','!Gruntfile.js','!gulpfile.js'],
+                src: ['**/*',  '!**/node_modules/**','!.git','!.gitgnore','!package.json','!Gruntfile.js','!gulpfile.js'],
                 expand: true,
                 cwd: '',
                 dest: 'dist'
@@ -61,7 +62,13 @@ module.exports = function(grunt) {
                     dest: 'dist/assets/js/'
                 }]
             }
+        },
+        clean: {
+            build: {
+                src: ['dist/*','!dist/.git']
+            }
         }
+
     });
 
     grunt.registerTask(

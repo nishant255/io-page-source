@@ -17,16 +17,19 @@
     <meta content="" name="author" />
     <!-- BEGIN PLUGINS -->
     <link href="assets/plugins/pace/pace-theme-flash.css" rel="stylesheet" type="text/css" />
-    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="public/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/plugins/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
     <link href="assets/plugins/swiper/css/swiper.css" rel="stylesheet" type="text/css" media="screen" />
     <link href="assets/plugins/text-rotate/simpletextrotator.css" rel="stylesheet" type="text/css" media="screen">
       <link rel="stylesheet" href="assets/css/custom_style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
     <!-- END PLUGINS -->
     <!-- BEGIN PAGES CSS -->
     <link class="main-stylesheet" href="pages/css/pages.css" rel="stylesheet" type="text/css" />
     <link class="main-stylesheet" href="pages/css/pages-icons.css" rel="stylesheet" type="text/css" />
-    <!-- BEGIN PAGES CSS -->
+    <!-- END PAGES CSS -->
+    <link href="assets/css/app.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/librerie.css" rel="stylesheet" type="text/css">
   </head>
   <body class="pace-dark">
     <!-- BEGIN HEADER -->
@@ -46,7 +49,7 @@
           <div class="pull-center-inner">
             <div class="header-inner ">
               <!-- BEGIN LOGO -->
-              <img src="assets/images/logo_black.png" width="152" height="24" data-src-retina="assets/images/logo_black_2x.png" class="alt" alt="">
+              <a href="#"><img src="assets/images/logo_black.png" width="152" height="24" data-src-retina="assets/images/logo_black_2x.png" class="alt" alt=""></a>
               <img src="assets/images/logo_white.png" width="152" height="24" data-src-retina="assets/images/logo_white_2x.png" class="logo" alt="">
             </div>
           </div>
@@ -188,69 +191,342 @@
       <!-- END SLIDER -->
     </section>
     <!-- END JUMBOTRON -->
-    <section class="container container-fixed-lg p-t-65 p-b-60" id="about">
-      <div class="md-p-l-20 md-p-r-20 xs-no-padding">
-        <div class="row">
-          <div class="col-sm-3 xs-m-b-30">
-            <h2 class="font-montserrat no-margin text-uppercase p-l-30 sm-no-padding"><span data-pages-animate="number" data-value="102345345" data-animation-duration="800">0</span></h2>
-            <h6 class="block-title fs-13 m-t-5 text-uppercase p-l-30 sm-no-padding muted">Active Customers</h6>
-          </div>
-          <div class="col-sm-9">
-            <div class="sm-p-l-20 xs-no-padding">
-              <p>Our motivation "Perfection simplified" helps to craft meaningful experiences for the people around us, This mission inspires us to jump out of bed each day and guides every aspect of what we do.</p>
-              <p class="m-t-30 fs-12 font-arial hint-text">Creative Direction, Code Perfection, Innovative Mindset
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="progress progress-tiny m-t-15 m-b-5">
-          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" data-pages-animate="progressbar" data-percentage="79%">
-            <span class="sr-only">60% Complete</span>
-          </div>
-        </div>
-        <p class="pull-right font-arial hint-text fs-11">67% <span class="hint-text">Higher than Previous Month</span></p>
-      </div>
-    </section>
-    <!-- BEGIN CONTENT SECTION -->
-    <section class="p-t-30 p-b-60" id="skills">
+
+    <!--=====================================================================================-->
+                                          <!--ABOUT ME-->
+    <!--=====================================================================================-->
+
+    <section class="p-t-75 p-b-75 bg-master-light" id="about">
       <div class="container">
         <div class="md-p-l-20 md-p-r-20 xs-no-padding">
           <div class="row">
-            <div class="col-sm-12">
-              <ul>
-                <li class="active" title="Show All Projects"><span>Show All</span></li>
-                <li title="Filter by WEB COMPONENTS" class=""><span>WEB COMPONENTS</span></li>
-                <li title="Filter by CUSTOM ELEMENTS"><span>CUSTOM ELEMENTS</span></li>
-                <li title="Filter by BRACKETS.IO"><span>BRACKETS.IO</span></li>
-                <li title="Filter by VANILLA JS"><span>VANILLA JS</span></li>
-                <li title="Filter by PRODUCTIVITY"><span>PRODUCTIVITY</span></li>
-              </ul>
-            </div>
-            <!--<div class="col-sm-6 b-r b-grey xs-b-b b-grey">-->
-              <!--<h5 class="block-title hint-text no-margin">Explore</h5>-->
-              <!--<h2 class="m-t-5">Different ways to Organize your Content.</h2>-->
-              <!--<div class="col-sm-10 no-padding">-->
-                <!--<h4 class="hint-text">We planned out every part of the design, you just have to think of the content</h4>-->
-                <!--<p class="m-t-30 fs-12 font-arial hint-text col-sm-10 no-padding">Crafted specially, giving attention to detail, this is a celebration of creativity with guaranteed smoothness in UI/UX</p>-->
-              <!--</div>-->
-            <!--</div>-->
-            <!--<div class="col-sm-6 xs-p-t-30">-->
-              <!--<div class="p-l-30 xs-no-padding">-->
-                <!--<div class="col-sm-6 no-padding m-b-20 m-t-20">-->
-                  <!--<p class="m-t-30 fs-12 font-arial hint-text">Crafted specially, giving attention to detail, this is a celebration of creativity with guaranteed smoothness in UI/UX</p>-->
-                <!--</div>-->
-                <!--<div class="clearfix"></div>-->
-                <!--<p>Our motivation "Perfection simplified" helps to craft meaningful experiences for the people around us, This mission inspires us to jump out of bed each day and guides every aspect of what we do.-->
-                <!--</p>-->
-              <!--</div>-->
-            <!--</div>-->
+            <div class="col-sm-12 text-center">
+              <h2 class="m-t-5 text-left">About Me</h2>
+              <div class="col-sm-3 xs-m-b-30">
+                <h2 class="font-montserrat no-margin text-uppercase p-l-30 sm-no-padding"><span data-pages-animate="number" data-value="102345345" data-animation-duration="800">0</span></h2>
+                <h6 class="block-title fs-13 m-t-5 text-uppercase p-l-30 sm-no-padding muted">Active Customers</h6>
+              </div>
+              <div class="col-sm-9">
+                <div class="sm-p-l-20 xs-no-padding">
+                  <p>Our motivation "Perfection simplified" helps to craft meaningful experiences for the people around us, This mission inspires us to jump out of bed each day and guides every aspect of what we do.</p>
+                  <p class="m-t-30 fs-12 font-arial hint-text">Creative Direction, Code Perfection, Innovative Mindset
+                  </p>
+                </div>
+              </div>
           </div>
+          <div class="progress progress-tiny m-t-15 m-b-5">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" data-pages-animate="progressbar" data-percentage="79%">
+              <span class="sr-only">60% Complete</span>
+            </div>
+          </div>
+          <p class="pull-right font-arial hint-text fs-11">67% <span class="hint-text">Higher than Previous Month</span></p>
         </div>
       </div>
+    </div>>
     </section>
-    <!-- END CONTENT SECTION -->
-    <!-- BEGIN CONTENT SECTION -->
+
+    <!--=====================================================================================-->
+                                            <!--Skills-->
+    <!--=====================================================================================-->
+
+    <section class="p-t-75 p-b-75 bg-master-dark" id="skills">
+      <div class="container">
+          <h2 class="m-t-5 text-white semi-bold">Skills</h2>
+          <div class="row text-center">
+              <div id="skill_filters" class="button-group btn-group" role="group">
+                  <button class="btn button skill-button is-checked" data-filter="*">ALL</button>
+                  <button class="btn button skill-button" data-filter=".frontend">FRONT-END</button>
+                  <button class="btn button skill-button" data-filter=".backend">BACK-END</button>
+                  <button class="btn button skill-button" data-filter=".database">DATABASE</button>
+                  <button class="btn button skill-button" data-filter=".languages">LANGUAGES</button>
+                  <button class="btn button skill-button" data-filter=".platform">PLATFORM</button>
+              </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-body grid row skill-grid">
+                <div class="skill-item frontend col-md-2 col-sm-2 col-lg-2" data-category="frontend">
+                    <a target="_blank" href="https://angularjs.org/"><img src="assets/images/skills/frontend_angular.png"></a>
+                    <p class="semi-bold">Angular JS</p>
+                </div>
+                <div class="skill-item frontend col-md-2 col-sm-2 col-lg-2" data-category="frontend">
+                    <a target="_blank" href="http://ejs.co/"><img src="assets/images/skills/frontend_ejs.png"></a>
+                    <p class="semi-bold">EJS</p>
+                </div>
+                <div class="skill-item frontend col-md-2 col-sm-2 col-lg-2" data-category="frontend">
+                    <a target="_blank" href="http://jquery.com/"><img src="assets/images/skills/frontend_jquery.png"></a>
+                    <p class="semi-bold">JQuery</p>
+                </div>
+                <div class="skill-item frontend col-md-2 col-sm-2 col-lg-2" data-category="frontend">
+                    <a target="_blank" href="https://api.jquery.com/category/ajax/"><img src="assets/images/skills/frontend_ajax.png"></a>
+                    <p class="semi-bold">Ajax</p>
+                </div>
+                <div class="skill-item frontend col-md-2 col-sm-2 col-lg-2" data-category="frontend">
+                    <a target="_blank" href="http://getbootstrap.com/"><img src="assets/images/skills/frontend_bootstrap.png"></a>
+                    <p class="semi-bold">BootStrap</p>
+                </div>
+                <div class="skill-item frontend col-md-2 col-sm-2 col-lg-2" data-category="frontend">
+                    <a target="_blank" href="http://materializecss.com/"><img src="assets/images/skills/frontend_materialize.png"></a>
+                    <p class="semi-bold">Materialize</p>
+                </div>
+                <div class="skill-item frontend col-md-2 col-sm-2 col-lg-2" data-category="frontend">
+                    <a target="_blank" href="https://d3js.org/"><img src="assets/images/skills/frontend_d3js.png"></a>
+                    <p class="semi-bold">D3.JS</p>
+                </div>
+                <div class="skill-item frontend col-md-2 col-sm-2 col-lg-2" data-category="frontend">
+                    <a target="_blank" href="https://developer.apple.com/reference/uikit"><img src="assets/images/skills/frontend_uikit.png"></a>
+                    <p class="semi-bold">UIKit</p>
+                </div>
+                <div class="skill-item backend col-md-2 col-sm-2 col-lg-2" data-category="backend">
+                    <a target="_blank" href="https://www.djangoproject.com/"><img src="assets/images/skills/backend_django.png"></a>
+                    <p class="semi-bold">Django</p>
+                </div>
+                <div class="skill-item backend col-md-2 col-sm-2 col-lg-2" data-category="backend">
+                    <a target="_blank" href="http://flask.pocoo.org/"><img src="assets/images/skills/backend_flask.png"></a>
+                    <p class="semi-bold">Flask</p>
+                </div>
+                <div class="skill-item backend col-md-2 col-sm-2 col-lg-2" data-category="backend">
+                    <a target="_blank" href="https://nodejs.org/en/"><img src="assets/images/skills/backend_nodejs.jpg"></a>
+                    <p class="semi-bold">Node.JS</p>
+                </div>
+                <div class="skill-item backend col-md-2 col-sm-2 col-lg-2" data-category="backend">
+                    <a target="_blank" href="https://expressjs.com/"><img src="assets/images/skills/backend_express.jpg"></a>
+                    <p class="semi-bold">Express.JS</p>
+                </div>
+                <div class="skill-item database col-md-2 col-sm-2 col-lg-2" data-category="database">
+                    <a target="_blank" href="https://www.mongodb.com/"><img src="assets/images/skills/database_mongodb.jpg"></a>
+                    <p class="semi-bold">Mongo DB</p>
+                </div>
+                <div class="skill-item database col-md-2 col-sm-2 col-lg-2" data-category="database">
+                    <a target="_blank" href="http://mongoosejs.com/"><img src="assets/images/skills/database_mongoose.png"></a>
+                    <p class="semi-bold">Mongoose</p>
+                </div>
+                <div class="skill-item database col-md-2 col-sm-2 col-lg-2" data-category="database">
+                    <a target="_blank" href="https://en.wikipedia.org/wiki/SQL"><img src="assets/images/skills/database_sql.png"></a>
+                    <p class="semi-bold">SQL</p>
+                </div>
+                <div class="skill-item database col-md-2 col-sm-2 col-lg-2" data-category="database">
+                    <a target="_blank" href="https://www.sqlite.org/"><img src="assets/images/skills/database_sqllite.png"></a>
+                    <p class="semi-bold">SQLite</p>
+                </div>
+                <div class="skill-item database col-md-2 col-sm-2 col-lg-2" data-category="database">
+                    <a target="_blank" href="https://www.mysql.com/"><img src="assets/images/skills/database_mysql.jpg"></a>
+                    <p class="semi-bold">My SQL</p>
+                </div>
+                <div class="skill-item database col-md-2 col-sm-2 col-lg-2" data-category="database">
+                    <a target="_blank" href="https://en.wikipedia.org/wiki/NoSQL"><img src="assets/images/skills/database_nosql.gif"></a>
+                    <p class="semi-bold">No SQL</p>
+                </div>
+                <div class="skill-item database col-md-2 col-sm-2 col-lg-2" data-category="database">
+                    <a target="_blank" href="https://www.mamp.info/en/"><img src="assets/images/skills/database_mamp.png"></a>
+                    <p class="semi-bold">MAMP</p>
+                </div>
+                <div class="skill-item database col-md-2 col-sm-2 col-lg-2" data-category="database">
+                    <a target="_blank" href="https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CoreData/index.html?utm_source=iosstash.io"><img src="assets/images/skills/database_coredata.png"></a>
+                    <p class="semi-bold">CoreData</p>
+                </div>
+                <div class="skill-item languages col-md-2 col-sm-2 col-lg-2" data-category="languages">
+                    <a target="_blank" href="https://en.wikipedia.org/wiki/HTML5"><img src="assets/images/skills/language_html.png"></a>
+                    <p class="semi-bold">HTML5</p>
+                </div>
+                <div class="skill-item languages col-md-2 col-sm-2 col-lg-2" data-category="languages">
+                    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3"><img src="assets/images/skills/language_css3.png"></a>
+                    <p class="semi-bold">CSS3</p>
+                </div>
+                <div class="skill-item languages col-md-2 col-sm-2 col-lg-2" data-category="languages">
+                    <a target="_blank" href="https://www.javascript.com/"><img src="assets/images/skills/language_js.png"></a>
+                    <p class="semi-bold">JavaScript</p>
+                </div>
+                <div class="skill-item languages col-md-2 col-sm-2 col-lg-2" data-category="languages">
+                    <a target="_blank" href="https://www.python.org/"><img src="assets/images/skills/language_python.png"></a>
+                    <p class="semi-bold">Python</p>
+                </div>
+                <div class="skill-item languages col-md-2 col-sm-2 col-lg-2" data-category="languages">
+                    <a target="_blank" href="https://developer.apple.com/swift/"><img src="assets/images/skills/language_swift.png"></a>
+                    <p class="semi-bold">Swift</p>
+                </div>
+                <div class="skill-item languages col-md-2 col-sm-2 col-lg-2" data-category="languages">
+                    <a target="_blank" href="https://www.java.com/en/"><img src="assets/images/skills/language_java.png"></a>
+                    <p class="semi-bold">Java</p>
+                </div>
+                <div class="skill-item languages col-md-2 col-sm-2 col-lg-2" data-category="languages">
+                    <a target="_blank" href="http://www.cplusplus.com/"><img src="assets/images/skills/language_c_plus_plus.png"></a>
+                    <p class="semi-bold">C++</p>
+                </div>
+                <div class="skill-item languages col-md-2 col-sm-2 col-lg-2" data-category="languages">
+                    <a target="_blank" href="https://en.wikipedia.org/wiki/C_(programming_language)"><img src="assets/images/skills/language_c.png"></a>
+                    <p class="semi-bold">C</p>
+                </div>
+                <div class="skill-item platform col-md-2 col-sm-2 col-lg-2" data-category="platform">
+                    <a target="_blank" href="https://git-scm.com/"><img src="assets/images/skills/platform_git.png"></a>
+                    <p class="semi-bold">GIT</p>
+                </div>
+                <div class="skill-item platform col-md-2 col-sm-2 col-lg-2" data-category="platform">
+                    <a target="_blank" href="https://atom.io/"><img src="assets/images/skills/platform_atom.png"></a>
+                    <p class="semi-bold">Atom</p>
+                </div>
+                <div class="skill-item platform col-md-2 col-sm-2 col-lg-2" data-category="platform">
+                    <a target="_blank" href="https://www.jetbrains.com/webstorm/"><img src="assets/images/skills/platform_webstorm.svg"></a>
+                    <p class="semi-bold">WebStorm</p>
+                </div>
+                <div class="skill-item platform col-md-2 col-sm-2 col-lg-2" data-category="platform">
+                    <a target="_blank" href="https://www.apple.com/macos/"><img src="assets/images/skills/platform_osx.png"></a>
+                    <p class="semi-bold">OS X</p>
+                </div>
+                <div class="skill-item platform col-md-2 col-sm-2 col-lg-2" data-category="platform">
+                    <a target="_blank" href="https://developer.apple.com/xcode/"><img src="assets/images/skills/platform_xcode.png"></a>
+                    <p class="semi-bold">XCode</p>
+                </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!--=====================================================================================-->
+                                      <!--PROJECTS-->
+    <!--=====================================================================================-->
     <section class="p-b-85 p-t-75 p-b-65 p-t-55 bg-master-lightest" id="projects">
+        <div class="container">
+            <h2 class="m-t-5 semi-bold">Projects</h2>
+            <div class="md-p-l-20 xs-no-padding clearfix">
+                <div class="row text-center">
+                    <div id="project_filters" class="button-group btn-group" role="group">
+                        <button id="allSkillsButton" class="btn button project-button is-checked" data-filter="*">ALL</button>
+                        <button class="btn button project-button" data-filter=".mean">MEAN</button>
+                        <button class="btn button project-button" data-filter=".python">PYTHON</button>
+                        <button class="btn button project-button" data-filter=".ios">iOS</button>
+                        <button class="btn button project-button" data-filter=".angularjs">ANGULAR JS</button>
+                        <button class="btn button project-button" data-filter=".nodejs">NODE.JS</button>
+                        <button class="btn button project-button" data-filter=".django">DJANGO</button>
+                        <button class="btn button project-button" data-filter=".flask">FLASK</button>
+                    </div>
+                </div>
+                <div class="grid project-grid">
+                    <div class="col-md-4 project-item mean angularjs nodejs">
+                        <div class="col-md-12 thumbnail" data-toggle="modal" data-target="#bmnModal">
+                            <img class="img-responsive project-image" src="assets/images/portfolio/bmn_webapp.png" alt=""><!--Project thumb -->
+                            <div class="hover-mask">
+                                <h2 class="project-title">BMN Inventory</h2><!--Project Title -->
+                                <p>Inventory Management App made with Love & MEAN Stack</p><!--Project Subtitle -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 project-item ios">
+                        <div class="col-md-12 thumbnail" data-toggle="modal" data-target="#bmniOSModal">
+                            <img class="img-responsive project-image" src="assets/images/portfolio/bmn_ios.png" alt=""><!--Project thumb -->
+                            <div class="hover-mask">
+                                <h2 class="project-title">BMN Inventory iOS App</h2><!--Project Title -->
+                                <p>Inventory Management iOS App - Addon for Web App</p><!--Project Subtitle -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="bmnModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="gridSystemModalLabel">BMN Inventory</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-4">.col-md-4</div>
+                                        <div class="col-md-4 col-md-offset-4">.col-md-4 .col-md-offset-4</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
+                                        <div class="col-md-2 col-md-offset-4">.col-md-2 .col-md-offset-4</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6 col-md-offset-3">.col-md-6 .col-md-offset-3</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-9">
+                                            Level 1: .col-sm-9
+                                            <div class="row">
+                                                <div class="col-xs-8 col-sm-6">
+                                                    Level 2: .col-xs-8 .col-sm-6
+                                                </div>
+                                                <div class="col-xs-4 col-sm-6">
+                                                    Level 2: .col-xs-4 .col-sm-6
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <a type="button" target="_blank" href="http://www.inventory-management.npatel.info/" class="btn btn-info">Go To Project Website</a>
+                                </div>
+                            </div><!-- /.modal-content -->
+                        </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+                    <div id="bmniOSModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="gridSystemModalLabel">BMN Inventory iOS App</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-4">.col-md-4</div>
+                                        <div class="col-md-4 col-md-offset-4">.col-md-4 .col-md-offset-4</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
+                                        <div class="col-md-2 col-md-offset-4">.col-md-2 .col-md-offset-4</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6 col-md-offset-3">.col-md-6 .col-md-offset-3</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-9">
+                                            Level 1: .col-sm-9
+                                            <div class="row">
+                                                <div class="col-xs-8 col-sm-6">
+                                                    Level 2: .col-xs-8 .col-sm-6
+                                                </div>
+                                                <div class="col-xs-4 col-sm-6">
+                                                    Level 2: .col-xs-4 .col-sm-6
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <a type="button" target="_blank" href="http://www.inventory-management.npatel.info/" class="btn btn-info">Watch YouTube Video</a>
+                                </div>
+                            </div><!-- /.modal-content -->
+                        </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+                    <!--<div class="skill-item frontend" data-category="frontend">-->
+                    <!--<h5>Frameworks I've used so far to design my cool projects</h5>-->
+                    <!--<div class="frontend_tab_chart"></div>-->
+                    <!--</div>-->
+                    <!--<div class="skill-item backend" id="backend">-->
+                    <!--<h5>My logic resides in these frameworks</h5>-->
+                    <!--<div class="backend_tab_chart" ></div>-->
+                    <!--</div>-->
+                    <!--<div class="skill-item database" id="database">-->
+                    <!--<h5>These are the technologies where my different types of data live</h5>-->
+                    <!--<div class="database_tab_chart" ></div>-->
+                    <!--</div>-->
+                    <!--<div class="skill-item languages" id="languages">-->
+                    <!--<h5>Languages I can code with</h5>-->
+                    <!--<div class="languages_tab_chart" ></div>-->
+                    <!--</div>-->
+                    <!--<div class="skill-item platform" id="otherTech">-->
+                    <!--<h5>This is what I use make legendary projects</h5>-->
+                    <!--<div class="otherTech_tab_chart" ></div>-->
+                    <!--</div>-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=====================================================================================-->
+                                      <!--EXPERIENCE-->
+    <!--=====================================================================================-->
+
+    <section class="p-b-85 p-t-75 p-b-65 p-t-55 bg-master-light" id="experience">
       <div class="container">
         <div class="md-p-l-20 xs-no-padding clearfix">
           <div class="col-sm-4 no-padding">
@@ -282,42 +558,11 @@
         </div>
       </div>
     </section>
-    <!-- END CONTENT SECTION -->
-    <!-- BEGIN CONTENT SECTION -->
-    <section class="p-b-85 p-t-75 p-b-65 p-t-55 bg-master-lightest" id="experience">
-      <div class="container">
-        <div class="md-p-l-20 xs-no-padding clearfix">
-          <div class="col-sm-4 no-padding">
-            <div class="p-r-40 md-pr-30">
-              <img alt="" class="m-b-20" src="assets/images/Parachute.svg">
-              <h6 class="block-title p-b-5">Launch Design <i class="pg-arrow_right m-l-10"></i></h6>
-              <p class="m-b-30">Awesome notepad app. It gives you a quick and simple notepad editing experience when you write notes.</p>
-              <p class="muted font-arial small-text col-sm-9 no-padding">Icon Fonts, Vector SVG's, pages 14x14px vector icons.</p>
-            </div>
-            <div class="visible-xs b-b b-grey-light m-t-30 m-b-30"></div>
-          </div>
-          <div class="col-sm-4 no-padding">
-            <div class="p-r-40 md-pr-30">
-              <img alt="" class="m-b-20" src="assets/images/Prizemedalion.svg">
-              <h6 class="block-title p-b-5">Award Wining <i class="pg-arrow_right m-l-10"></i></h6>
-              <p class="m-b-30">Quick chat helps you to Keep in touch with your friends and colleagues while working. It has a unique responsive design.</p>
-              <p class="muted font-arial small-text col-sm-9 no-padding">Limitless possibilities, Highly customizable, Great UI & UX</p>
-            </div>
-            <div class="visible-xs b-b b-grey-light m-t-30 m-b-30"></div>
-          </div>
-          <div class="col-sm-4 no-padding">
-            <div class="p-r-40 md-pr-30">
-              <img alt="" class="m-b-20" src="assets/images/Umbrella.svg">
-              <h6 class="block-title p-b-5">Shop ready <i class="pg-arrow_right m-l-10"></i></h6>
-              <p class="m-b-30">This is a very young collection of charts, with the goal of keeping these components very customizable.</p>
-              <p class="muted font-arial small-text col-sm-9 no-padding">Highly customizable NVD3, rickshaw, Spark Lines, D3.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- END CONTENT SECTION -->
-    <!-- BEGIN CONTENT SECTION -->
+
+    <!--=====================================================================================-->
+                                        <!--Education-->
+    <!--=====================================================================================-->
+
     <section class="p-b-85 p-t-75 p-b-65 p-t-55 bg-master-lightest" id="education">
       <div class="container">
         <div class="md-p-l-20 xs-no-padding clearfix">
@@ -350,14 +595,16 @@
         </div>
       </div>
     </section>
-    <!-- END CONTENT SECTION -->
-    <!-- BEGIN CONTENT SECTION -->
+
+    <!--=====================================================================================-->
+                                          <!--LET'S TALK-->
+    <!--=====================================================================================-->
+
     <section class="p-b-85 p-t-75 p-b-65 p-t-55 bg-master-light" id="let'stalk">
         <div class="container">
             <div class="md-p-l-20 md-p-r-20 xs-no-padding">
                 <div class="row">
                     <div class="col-sm-6 b-r b-grey xs-b-b b-grey">
-                        <h2 class="m-t-5">Contact me today</h2>
                         <div class="col-sm-10 no-padding">
                             <p class="hint-text">Please feel free to reach out to me if you have any questions or comments about me. Also, you could always just send me a friendly <b>Hello</b>.</p>
                             <!--<p class="m-t-30 fs-12 font-arial hint-text col-sm-10 no-padding">Crafted specially, giving attention to detail, this is a celebration of creativity with guaranteed smoothness in UI/UX</p>-->
@@ -482,7 +729,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-4">
-            <img src="assets/images/logo_white.png" class="logo" alt="">
+            <img src="assets/images/logo_white_2x.png" width="152" height="24" class="logo" alt="">
             <div class="m-t-10 ">
               <a href="#" class="link text-white p-r-10 xs-no-padding xs-m-t-10">Click Here to Download my Resume.</a>
               <!--<ul class="no-style fs-11 no-padding font-arial">-->
@@ -496,19 +743,19 @@
           </div>
           <div class=" col-sm-4 text-center pt2">
             <!--<p class="icons mt0 mb0 pr2 sm-ml2 md-ml0 sm-mb2 md-mb0 right">-->
-            <a href="https://www.linkedin.com/in/nishant-patel/">
+            <a href="https://www.linkedin.com/in/nishant-patel/" target="_blank">
               <img src="assets/images/linkedin.svg" width="25">
             </a>
-            <a href="https://github.com/nishant255">
-              <img src="assets/images/github.svg" width="25">
+            <a href="https://github.com/nishant255" target="_blank">
+              <img src="assets/images/GitHub-Mark-Light-64px.png" width="23">
             </a>
-            <a href="https://twitter.com/nishant2594">
+            <a href="https://twitter.com/nishant2594" target="_blank">
               <img src="assets/images/twitter.svg" width="25">
             </a>
-            <a href="https://www.facebook.com/nishant594">
+            <a href="https://www.facebook.com/nishant594" target="_blank">
               <img src="assets/images/facebook.svg" width="25">
             </a>
-            <a href="https://www.instagram.com/nishant255">
+            <a href="https://www.instagram.com/nishant255" target="_blank">
               <img src="assets/images/instagram.svg" width="25">
             </a>
             <!--</p>-->
@@ -524,7 +771,8 @@
     <!-- BEGIN CORE FRAMEWORK -->
     <script src="assets/plugins/pace/pace.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="pages/js/pages.image.loader.js"></script>
-    <script type="text/javascript" src="assets/plugins/jquery/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="public/lib/jquery/dist/jquery.min.js"></script>
+    <script src="public/lib/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- BEGIN SLIDER DEPENDENCIES -->
     <script type="text/javascript" src="assets/plugins/swiper/js/swiper.jquery.min.js"></script>
     <script type="text/javascript" src="assets/plugins/velocity/velocity.min.js"></script>
@@ -537,11 +785,41 @@
     <script type="text/javascript" src="assets/plugins/jquery-appear/jquery.appear.js"></script>
     <script type="text/javascript" src="assets/plugins/animateNumber/jquery.animateNumbers.js"></script>
     <!-- END VENDOR JS -->
+    <!--BEGIN D3 CONTENTS-->
+    <!--<script src="public/lib/highcharts/highcharts.js"></script>-->
+    <!--<script src="public/lib/highcharts/highcharts-3d.js"></script>-->
+    <!--<script src="public/lib/highcharts/modules/exporting.js"></script>-->
+    <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+    <!--<script src="https://www.amcharts.com/lib/3/gauge.js"></script>-->
+    <script src="https://www.amcharts.com/lib/3/radar.js"></script>
+    <!--<script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>-->
+    <!--<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>-->
+    <!--<script src="https://www.amcharts.com/lib/3/themes/none.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+    <script src="assets/js/charts.js"></script>
+    <!--END D3 CONTENTS-->
     <!-- BEGIN PAGES FRONTEND LIB -->
     <script type="text/javascript" src="pages/js/pages.frontend.js"></script>
     <!-- END PAGES LIB -->
     <!-- BEGIN YOUR CUSTOM JS -->
+    <script src="public/lib/isotope/dist/isotope.pkgd.min.js"></script>
     <script type="text/javascript" src="assets/js/custom.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/Modernizr.min.js"></script>
+    <script src="public/lib/jquery.scrollTo/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" async="" src="https://cdn.mouseflow.com/projects/b6280644-983b-4d09-b194-cbedc4a3cd81.js"></script>
+    <script src="https://use.fontawesome.com/b4cf32adc4.js"></script>
+    <script src="assets/js/modal.js"></script>
+    <script>
+        jQuery(function () {
+            $(document).on('shown.bs.tab', 'a[data-toggle="tab"]', function (e) {
+                window.dispatchEvent(new Event('resize'));
+            });
+            var cw = $('.skill-item').width();
+            $('.skill-item').css({'height': cw + 'px'});
+
+        });
+    </script>
     <!-- END PAGES LIB -->
   </body>
 </html>
