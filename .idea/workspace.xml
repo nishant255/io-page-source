@@ -3,18 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="069df073-2e1e-440f-a532-2f8e7703bb3b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/custom_style.css" afterPath="$PROJECT_DIR$/assets/css/custom_style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/assets/css/custom_style.css" afterPath="$PROJECT_DIR$/dist/assets/css/custom_style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/assets/js/Modernizr.min.js" afterPath="$PROJECT_DIR$/dist/assets/js/Modernizr.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/assets/js/charts.js" afterPath="$PROJECT_DIR$/dist/assets/js/charts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/assets/js/contact.js" afterPath="$PROJECT_DIR$/dist/assets/js/contact.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/assets/js/custom.js" afterPath="$PROJECT_DIR$/dist/assets/js/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/assets/js/gallery.js" afterPath="$PROJECT_DIR$/dist/assets/js/gallery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/assets/js/google_map.js" afterPath="$PROJECT_DIR$/dist/assets/js/google_map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/assets/js/main.js" afterPath="$PROJECT_DIR$/dist/assets/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/assets/js/modal.js" afterPath="$PROJECT_DIR$/dist/assets/js/modal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -67,7 +55,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
+            <state relative-caret-position="-157">
               <caret line="207" column="82" lean-forward="false" selection-start-line="207" selection-start-column="82" selection-end-line="207" selection-end-column="82" />
               <folding>
                 <element signature="e#5568#5574#0" expanded="true" />
@@ -493,12 +481,12 @@
       <workItem from="1492378770386" duration="5974000" />
       <workItem from="1492414156504" duration="99000" />
       <workItem from="1492458886438" duration="1707000" />
-      <workItem from="1492532278339" duration="6507000" />
+      <workItem from="1492532278339" duration="6632000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136372000" />
+    <option name="totallyTimeSpent" value="136497000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -512,14 +500,14 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18901454" sideWeight="0.49183673" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18901454" sideWeight="0.49183673" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.05479452" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54059404" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19315068" sideWeight="0.4978701" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19315068" sideWeight="0.4978701" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.319063" sideWeight="0.5081633" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -797,7 +785,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="-157">
           <caret line="207" column="82" lean-forward="false" selection-start-line="207" selection-start-column="82" selection-end-line="207" selection-end-column="82" />
           <folding>
             <element signature="e#5568#5574#0" expanded="true" />
