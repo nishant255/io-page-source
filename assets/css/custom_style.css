@@ -20,6 +20,7 @@ body {
     font-family: sans-serif;
 }
 
+
 .panel.project-panel {
     background-color: lightgrey;
     border: none;
@@ -118,10 +119,11 @@ body {
 .skill-item {
     position: relative;
     float: left;
-    /*width: 100%;*/
+    /*width: 16.66%;*/
+    /*padding-top: 70%;*/
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
 }
 
 .skill-item > * {
@@ -131,6 +133,7 @@ body {
 
 .skill-item img {
     width: 70%;
+    height: inherit;
     margin: 5%;
 }
 
@@ -703,9 +706,6 @@ a:focus, .btn:focus {
     padding-bottom: 80px;
 }
 
-#about img {
-    margin-bottom: 60px;
-}
 
 /*-------------------------
 ------Call to action-------
