@@ -20,5 +20,7 @@
     <orderEntry type="library" name="d3" level="application" />
     <orderEntry type="library" name="b6280644-983b-4d09-b194-cbedc4a3cd81" level="application" />
     <orderEntry type="library" name="b4cf32adc4" level="application" />
+    <orderEntry type="library" name="form-submission-handler" level="application" />
+    <orderEntry type="library" name="profile" level="application" />
   </component>
 </module>

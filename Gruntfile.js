@@ -27,7 +27,7 @@ module.exports = function(grunt) {
         },
         copy: {
             main: {
-                src: ['**/*',  '!**/node_modules/**','!.git','!.gitgnore','!package.json','!Gruntfile.js','!gulpfile.js'],
+                src: ['**/*','!**/node_modules/**','!**/dist/**','!.git','!.gitgnore','!package.json','!Gruntfile.js','!gulpfile.js'],
                 expand: true,
                 cwd: '',
                 dest: 'dist'
@@ -65,7 +65,7 @@ module.exports = function(grunt) {
         },
         clean: {
             build: {
-                src: ['dist/*','!dist/.git']
+                src: ['dist/*','!dist/.git','!dist/CNAME']
             }
         }
 

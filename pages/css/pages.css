@@ -460,6 +460,10 @@ body.pace-white .pace .pace-progress {
   content: attr(data-text);
   -webkit-transition: max-width 0.5s;
   transition: max-width 0.5s;
+
+}
+.header .menu:before {
+  text-align: right;
 }
 .header .menu > li > a.btn,
 .header .menu > li > a.btn:hover {

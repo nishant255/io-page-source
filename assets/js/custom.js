@@ -5,6 +5,9 @@
 'use strict';
 $(document).ready(function() {
     // Initialize Search
+
+
+    $(document).on("scroll", onScroll);
     $('[data-pages="search"]').search({
         // Bind elements that are included inside search overlay
         searchField: '#overlay-search',
@@ -66,4 +69,43 @@ $(document).ready(function() {
         parallax: true,
         speed: 1000
     });
+
+    $('a[href^="#"]').on('click', function (e) {
+        e.preventDefault();
+        $(document).off("scroll");
+
+        $('a').each(function () {
+            $(this).removeClass('active');
+        })
+        $(this).addClass('active');
+
+        var target = this.hash,
+            menu = target;
+        var $target = $(target);
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top+2
+        }, 500, 'swing', function () {
+            window.location.hash = target;
+            $(document).on("scroll", onScroll);
+        });
+    });
+
+    function onScroll(event){
+        var scrollPos = $(document).scrollTop();
+        $('.header-inner.menu-header a').each(function () {
+            var currLink = $(this);
+            var refElement = $(currLink.attr("href"));
+            if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+                $('.header-inner.menu-header ul li a').removeClass("active");
+                currLink.addClass("active");
+            }
+            else{
+                currLink.removeClass("active");
+            }
+        });
+    }
 })
+
+$(window).on("load", function() {
+    $('.skill-item').height = $('.skill-item').width()
+});

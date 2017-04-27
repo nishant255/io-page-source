@@ -5,11 +5,17 @@
     <meta charset="utf-8" />
     <title>Nishant Patel</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <link rel="apple-touch-icon" href="pages/ico/60.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="pages/ico/76.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="pages/ico/120.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="pages/ico/152.png">
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+      <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+      <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+      <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+      <link rel="manifest" href="manifest.json">
+      <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+      <meta name="theme-color" content="#ffffff">
+    <!--<link rel="apple-touch-icon" sizes="76x76" href="pages/ico/76.png">-->
+    <!--<link rel="apple-touch-icon" sizes="120x120" href="pages/ico/120.png">-->
+    <!--<link rel="apple-touch-icon" sizes="152x152" href="pages/ico/152.png">-->
+    <!--<link rel="icon" type="image/x-icon" href="favicon.ico" />-->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-touch-fullscreen" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -32,7 +38,19 @@
     <link href="assets/css/librerie.css" rel="stylesheet" type="text/css">
   </head>
   <body class="pace-dark">
+  <div class="se-pre-con">
+      <h2>Be Patient while something awesome is loading.</h2>
+  </div>
+  <div id="page-top"></div>
     <!-- BEGIN HEADER -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=689138794441332";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <nav class="header bg-header transparent-light " data-pages="header" data-pages-header="autoresize" data-pages-resize-class="light">
       <div class="container relative">
         <!-- BEGIN LEFT CONTENT -->
@@ -68,35 +86,29 @@
               <i class=" pg-close_line"></i>
             </a>
           </div>
-          <div class="pull-left sm-full-width">
-            <div class="header-inner">
+          <div id="nav-menu-left" class="pull-left left-menu sm-full-width">
+            <div class="header-inner menu-header">
               <!-- BEGIN MENU ITEMS -->
               <ul class="menu">
-                <li>
-                  <a href="#about" data-text="about" class="active">about</a>
+                <li class="left-menu-list">
+                  <a href="#about" data-text="about">about</a>
                 </li>
-                <li>
-                  <a href="#skills" data-text="skills" class="active">skills</a>
-                </li>
-                <li>
-                  <a href="#projects" data-text="projects" class="active">projects</a>
+                <li class="left-menu-list">
+                  <a href="#skills" data-text="skills" >skills</a>
                 </li>
               </ul>
               <!-- END MENU ITEMS -->
             </div>
           </div>
-          <div class="pull-right sm-full-width">
-            <div class="header-inner">
+          <div id="nav-menu-right" class="pull-right right-menu sm-full-width">
+            <div class="header-inner menu-header">
               <!-- BEGIN MENU ITEMS -->
-              <ul class="menu">
-                <li>
-                  <a href="#experience" data-text="experience" class="active">experience</a>
-                </li>
-                <li>
-                  <a href="#education" data-text="education" class="active">education</a>
-                </li>
-                <li>
-                  <a href="#let'stalk" data-text="let's talk!" class="active">let's talk!</a>
+              <ul class="menu text-right">
+                  <li class="right-menu-list">
+                      <a href="#projects" data-text="projects">projects</a>
+                  </li>
+                <li class="right-menu-list">
+                  <a href="#letstalk" data-text="let's talk!" >let's talk!</a>
                 </li>
               </ul>
               <!-- END MENU ITEMS -->
@@ -125,7 +137,7 @@
                 <div class="background-wrapper" data-swiper-parallax="20%">
                   <!-- YOUR BACKGROUND IMAGE HERE, YOU CAN ALSO USE IMG with the same classes -->
                   <div id="slider_dark" data-pages-bg-image="assets/images/banner_1_dark.jpg" draggable="false" class="background">
-                    <!--<img  draggable="false" class="background">-->
+                    <!--<img  draggable="false" src="assets/images/banner_1_dark.jpg">-->
                   </div>
                   <!--<img id="slider_dark" draggable="false" class="background image-slider" width="1532" src="assets/images/banner_1_dark.jpg" alt="">-->
                 </div>
@@ -201,24 +213,24 @@
         <div class="md-p-l-20 md-p-r-20 xs-no-padding">
           <div class="row">
             <div class="col-sm-12 text-center">
-              <h2 class="m-t-5 text-left block-title" style="font-size: 20px">Hi, My name is Nishant Patel</h2>
+              <h2 class="m-t-5 text-left block-title" style="font-size: 20px">Hi, My name is Nishant Patel 👋</h2>
                 <hr style="border-color: black">
                 <div class="row">
                     <div class="col-md-3">
-                        <img class="m-t-45" src="assets/images/Monterey_selfie.jpg" width="100%">
+                        <img class="m-t-45" src="assets/images/aboutme.JPG" width="100%">
                     </div>
                     <div class="col-sm-9 text-left">
                         <!--<h2 class="font-montserrat no-margin text-uppercase p-l-30 sm-no-padding"><span data-pages-animate="number" data-value="102345345" data-animation-duration="800">0</span></h2>-->
-                        <p class="lead semi-bold">Hope you're having a great day today. If not, <span class="block-title fs-16">SMILE PLEASE <img class="v-align-top p-t-5" src="assets/images/happy.svg" width="20"></span></p>
-                        <p>First of all, <span class="block-title">Welcome</span> to my portfolio. Now, without wasting your time, let me introduce myself.</p><br>
+                        <p class="lead semi-bold">Hope you're having a great day today. If not, <span class="block-title fs-16">SMILE PLEASE </span>😀</p>
+                        <p>First of all, <span class="block-title">Welcome</span> 🙏 to my portfolio. Now, without wasting your time ⏰, let me introduce myself.</p><br>
                         <p>I'm a <span class="block-title">Full Stack Web & iOS Developer</span> based in San Francisco Bay Area, specialized in Python, Javascript and Swift language. I am also familiar with many different programming languages such as Java, C, C++.</p>
                         <p>Well, <span class="block-title">when did I actually start coding?</span> Good Question! I started coding when I was in sixth grade and that's what I've been doing until today.</p>
                         <p><span class="block-title">My Expertise?</span> I have a good experience in <span class="semi-bold">Python</span>(Django & Flask) and <span class="semi-bold">MEAN</span>(MongoDB, ExpressJS, AngularJS, NodeJS) Stack. <span class="block-title">Efficient & Clean</span> code with Intuitive user experience is my <span class="block-title">addiction</span>.</p>
-                        <p>In addition to my passion about Coding, I also enjoy adventurous road trips, hiking and hang-out with friends. Like almost all men in the world, I'm also a <span class="block-title">BIG FAN of VIDEO GAMES.</span></p>
+                        <p>In addition to my passion about Coding, I also enjoy adventurous road trips, hiking and hang-out with friends. Like almost all men in the world, I'm also a <span class="block-title">BIG FAN of VIDEO GAMES 🎮.</span></p>
                         <p>That was me. If you want to learn more about me <span class="block-title">keep scrolling</span> or if you're in <span class="block-title">hurry?</span> Feel free to download my resume.</p>
                         <p>Also you can stop by and say hello at <span class="title"><a href="mailto:hello@npatel.info">hello@npatel.info</a></span></p>
                         <br>
-                        <p class="text-center"><a type="button" target="_blank" href="http://www.inventory-management.npatel.info/" class="btn btn-info ">DOWNLOAD MY RESUME</a></p>
+                        <p class="text-center"><a type="button" target="_blank" href="assets/documents/Resume_Nishant_Patel.pdf" class="btn btn-info ">DOWNLOAD MY RESUME</a></p>
                     </div>
                 </div>
           </div>
@@ -235,6 +247,7 @@
       <div class="container">
           <h2 class="m-t-5 text-white semi-bold">Skills</h2>
           <div class="row text-center">
+              <p class="text-white semi-bold">Too much going on? Try Filtering.</p>
               <div id="skill_filters" class="button-group btn-group" role="group">
                   <button class="btn button skill-button is-checked" data-filter="*">ALL</button>
                   <button class="btn button skill-button" data-filter=".frontend">FRONT-END</button>
@@ -246,135 +259,135 @@
           </div>
           <div class="panel panel-default">
             <div class="panel-body grid row skill-grid">
-                <div class="skill-item frontend col-md-2 col-sm-2 col-lg-2" data-category="frontend">
-                    <a target="_blank" href="https://angularjs.org/"><img src="assets/images/skills/frontend_angular.png"></a>
-                    <p class="semi-bold">Angular JS</p>
+                <div class="skill-item frontend col-sm" data-category="frontend">
+                    <a target="_blank" href="https://angularjs.org/"><img src="assets/images/skills/frontend_angular.svg"></a>
+                    <p class="semi-bold">AngularJS</p>
                 </div>
-                <div class="skill-item frontend col-md-2 col-sm-2 col-lg-2" data-category="frontend">
+                <div class="skill-item frontend col-sm" data-category="frontend">
                     <a target="_blank" href="http://ejs.co/"><img src="assets/images/skills/frontend_ejs.png"></a>
                     <p class="semi-bold">EJS</p>
                 </div>
-                <div class="skill-item frontend col-md-2 col-sm-2 col-lg-2" data-category="frontend">
+                <div class="skill-item frontend col-sm" data-category="frontend">
                     <a target="_blank" href="http://jquery.com/"><img src="assets/images/skills/frontend_jquery.png"></a>
                     <p class="semi-bold">JQuery</p>
                 </div>
-                <div class="skill-item frontend col-md-2 col-sm-2 col-lg-2" data-category="frontend">
+                <div class="skill-item frontend col-sm" data-category="frontend">
                     <a target="_blank" href="https://api.jquery.com/category/ajax/"><img src="assets/images/skills/frontend_ajax.png"></a>
                     <p class="semi-bold">Ajax</p>
                 </div>
-                <div class="skill-item frontend col-md-2 col-sm-2 col-lg-2" data-category="frontend">
-                    <a target="_blank" href="http://getbootstrap.com/"><img src="assets/images/skills/frontend_bootstrap.png"></a>
+                <div class="skill-item frontend col-sm" data-category="frontend">
+                    <a target="_blank" href="http://getbootstrap.com/"><img src="assets/images/skills/frontend_bootstrap.svg"></a>
                     <p class="semi-bold">BootStrap</p>
                 </div>
-                <div class="skill-item frontend col-md-2 col-sm-2 col-lg-2" data-category="frontend">
-                    <a target="_blank" href="http://materializecss.com/"><img src="assets/images/skills/frontend_materialize.png"></a>
+                <div class="skill-item frontend col-sm" data-category="frontend">
+                    <a target="_blank" href="http://materializecss.com/"><img src="assets/images/skills/frontend_materialize.png" width="70%" height="70%"></a>
                     <p class="semi-bold">Materialize</p>
                 </div>
-                <div class="skill-item frontend col-md-2 col-sm-2 col-lg-2" data-category="frontend">
+                <div class="skill-item frontend col-sm" data-category="frontend">
                     <a target="_blank" href="https://d3js.org/"><img src="assets/images/skills/frontend_d3js.png"></a>
                     <p class="semi-bold">D3.JS</p>
                 </div>
-                <div class="skill-item frontend col-md-2 col-sm-2 col-lg-2" data-category="frontend">
+                <div class="skill-item frontend col-sm" data-category="frontend">
                     <a target="_blank" href="https://developer.apple.com/reference/uikit"><img src="assets/images/skills/frontend_uikit.png"></a>
                     <p class="semi-bold">UIKit</p>
                 </div>
-                <div class="skill-item backend col-md-2 col-sm-2 col-lg-2" data-category="backend">
+                <div class="skill-item backend col-sm" data-category="backend">
                     <a target="_blank" href="https://www.djangoproject.com/"><img src="assets/images/skills/backend_django.png"></a>
                     <p class="semi-bold">Django</p>
                 </div>
-                <div class="skill-item backend col-md-2 col-sm-2 col-lg-2" data-category="backend">
+                <div class="skill-item backend col-sm" data-category="backend">
                     <a target="_blank" href="http://flask.pocoo.org/"><img src="assets/images/skills/backend_flask.png"></a>
                     <p class="semi-bold">Flask</p>
                 </div>
-                <div class="skill-item backend col-md-2 col-sm-2 col-lg-2" data-category="backend">
+                <div class="skill-item backend col-sm" data-category="backend">
                     <a target="_blank" href="https://nodejs.org/en/"><img src="assets/images/skills/backend_nodejs.jpg"></a>
                     <p class="semi-bold">Node.JS</p>
                 </div>
-                <div class="skill-item backend col-md-2 col-sm-2 col-lg-2" data-category="backend">
+                <div class="skill-item backend col-sm" data-category="backend">
                     <a target="_blank" href="https://expressjs.com/"><img src="assets/images/skills/backend_express.jpg"></a>
                     <p class="semi-bold">Express.JS</p>
                 </div>
-                <div class="skill-item database col-md-2 col-sm-2 col-lg-2" data-category="database">
+                <div class="skill-item database col-sm" data-category="database">
                     <a target="_blank" href="https://www.mongodb.com/"><img src="assets/images/skills/database_mongodb.jpg"></a>
-                    <p class="semi-bold">Mongo DB</p>
+                    <p class="semi-bold">MongoDB</p>
                 </div>
-                <div class="skill-item database col-md-2 col-sm-2 col-lg-2" data-category="database">
+                <div class="skill-item database col-sm" data-category="database">
                     <a target="_blank" href="http://mongoosejs.com/"><img src="assets/images/skills/database_mongoose.png"></a>
                     <p class="semi-bold">Mongoose</p>
                 </div>
-                <div class="skill-item database col-md-2 col-sm-2 col-lg-2" data-category="database">
+                <div class="skill-item database col-sm" data-category="database">
                     <a target="_blank" href="https://en.wikipedia.org/wiki/SQL"><img src="assets/images/skills/database_sql.png"></a>
                     <p class="semi-bold">SQL</p>
                 </div>
-                <div class="skill-item database col-md-2 col-sm-2 col-lg-2" data-category="database">
+                <div class="skill-item database col-sm" data-category="database">
                     <a target="_blank" href="https://www.sqlite.org/"><img src="assets/images/skills/database_sqllite.png"></a>
                     <p class="semi-bold">SQLite</p>
                 </div>
-                <div class="skill-item database col-md-2 col-sm-2 col-lg-2" data-category="database">
+                <div class="skill-item database col-sm" data-category="database">
                     <a target="_blank" href="https://www.mysql.com/"><img src="assets/images/skills/database_mysql.jpg"></a>
-                    <p class="semi-bold">My SQL</p>
+                    <p class="semi-bold">MySQL</p>
                 </div>
-                <div class="skill-item database col-md-2 col-sm-2 col-lg-2" data-category="database">
+                <div class="skill-item database col-sm" data-category="database">
                     <a target="_blank" href="https://en.wikipedia.org/wiki/NoSQL"><img src="assets/images/skills/database_nosql.gif"></a>
-                    <p class="semi-bold">No SQL</p>
+                    <p class="semi-bold">NoSQL</p>
                 </div>
-                <div class="skill-item database col-md-2 col-sm-2 col-lg-2" data-category="database">
+                <div class="skill-item database col-sm" data-category="database">
                     <a target="_blank" href="https://www.mamp.info/en/"><img src="assets/images/skills/database_mamp.png"></a>
                     <p class="semi-bold">MAMP</p>
                 </div>
-                <div class="skill-item database col-md-2 col-sm-2 col-lg-2" data-category="database">
+                <div class="skill-item database col-sm" data-category="database">
                     <a target="_blank" href="https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CoreData/index.html?utm_source=iosstash.io"><img src="assets/images/skills/database_coredata.png"></a>
                     <p class="semi-bold">CoreData</p>
                 </div>
-                <div class="skill-item languages col-md-2 col-sm-2 col-lg-2" data-category="languages">
+                <div class="skill-item languages col-sm" data-category="languages">
                     <a target="_blank" href="https://en.wikipedia.org/wiki/HTML5"><img src="assets/images/skills/language_html.png"></a>
                     <p class="semi-bold">HTML5</p>
                 </div>
-                <div class="skill-item languages col-md-2 col-sm-2 col-lg-2" data-category="languages">
+                <div class="skill-item languages col-sm" data-category="languages">
                     <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3"><img src="assets/images/skills/language_css3.png"></a>
                     <p class="semi-bold">CSS3</p>
                 </div>
-                <div class="skill-item languages col-md-2 col-sm-2 col-lg-2" data-category="languages">
+                <div class="skill-item languages col-sm" data-category="languages">
                     <a target="_blank" href="https://www.javascript.com/"><img src="assets/images/skills/language_js.png"></a>
                     <p class="semi-bold">JavaScript</p>
                 </div>
-                <div class="skill-item languages col-md-2 col-sm-2 col-lg-2" data-category="languages">
+                <div class="skill-item languages col-sm" data-category="languages">
                     <a target="_blank" href="https://www.python.org/"><img src="assets/images/skills/language_python.png"></a>
                     <p class="semi-bold">Python</p>
                 </div>
-                <div class="skill-item languages col-md-2 col-sm-2 col-lg-2" data-category="languages">
+                <div class="skill-item languages col-sm" data-category="languages">
                     <a target="_blank" href="https://developer.apple.com/swift/"><img src="assets/images/skills/language_swift.png"></a>
                     <p class="semi-bold">Swift</p>
                 </div>
-                <div class="skill-item languages col-md-2 col-sm-2 col-lg-2" data-category="languages">
+                <div class="skill-item languages col-sm" data-category="languages">
                     <a target="_blank" href="https://www.java.com/en/"><img src="assets/images/skills/language_java.png"></a>
                     <p class="semi-bold">Java</p>
                 </div>
-                <div class="skill-item languages col-md-2 col-sm-2 col-lg-2" data-category="languages">
+                <div class="skill-item languages col-sm" data-category="languages">
                     <a target="_blank" href="http://www.cplusplus.com/"><img src="assets/images/skills/language_c_plus_plus.png"></a>
                     <p class="semi-bold">C++</p>
                 </div>
-                <div class="skill-item languages col-md-2 col-sm-2 col-lg-2" data-category="languages">
+                <div class="skill-item languages col-sm" data-category="languages">
                     <a target="_blank" href="https://en.wikipedia.org/wiki/C_(programming_language)"><img src="assets/images/skills/language_c.png"></a>
                     <p class="semi-bold">C</p>
                 </div>
-                <div class="skill-item platform col-md-2 col-sm-2 col-lg-2" data-category="platform">
+                <div class="skill-item platform col-sm" data-category="platform">
                     <a target="_blank" href="https://git-scm.com/"><img src="assets/images/skills/platform_git.png"></a>
                     <p class="semi-bold">GIT</p>
                 </div>
-                <div class="skill-item platform col-md-2 col-sm-2 col-lg-2" data-category="platform">
+                <div class="skill-item platform col-sm" data-category="platform">
                     <a target="_blank" href="https://atom.io/"><img src="assets/images/skills/platform_atom.png"></a>
                     <p class="semi-bold">Atom</p>
                 </div>
-                <div class="skill-item platform col-md-2 col-sm-2 col-lg-2" data-category="platform">
+                <div class="skill-item platform col-sm" data-category="platform">
                     <a target="_blank" href="https://www.jetbrains.com/webstorm/"><img src="assets/images/skills/platform_webstorm.svg"></a>
                     <p class="semi-bold">WebStorm</p>
                 </div>
-                <div class="skill-item platform col-md-2 col-sm-2 col-lg-2" data-category="platform">
+                <div class="skill-item platform col-sm" data-category="platform">
                     <a target="_blank" href="https://www.apple.com/macos/"><img src="assets/images/skills/platform_osx.png"></a>
-                    <p class="semi-bold">OS X</p>
+                    <p class="semi-bold">OSX</p>
                 </div>
-                <div class="skill-item platform col-md-2 col-sm-2 col-lg-2" data-category="platform">
+                <div class="skill-item platform col-sm" data-category="platform">
                     <a target="_blank" href="https://developer.apple.com/xcode/"><img src="assets/images/skills/platform_xcode.png"></a>
                     <p class="semi-bold">XCode</p>
                 </div>
@@ -391,6 +404,7 @@
             <h2 class="m-t-5 semi-bold">Projects</h2>
             <div class="md-p-l-20 xs-no-padding clearfix">
                 <div class="row text-center">
+                    <p class="text-black semi-bold">Again too much? Try Filtering.</p>
                     <div id="project_filters" class="button-group btn-group" role="group">
                         <button id="allSkillsButton" class="btn button project-button is-checked" data-filter="*">ALL</button>
                         <button class="btn button project-button" data-filter=".mean">MEAN</button>
@@ -417,7 +431,16 @@
                             <img class="img-responsive project-image" src="assets/images/portfolio/bmn_ios.png" alt=""><!--Project thumb -->
                             <div class="hover-mask">
                                 <h2 class="project-title">BMN Inventory iOS App</h2><!--Project Title -->
-                                <p>Inventory Management iOS App - Addon for Web App</p><!--Project Subtitle -->
+                                <p>Inventory Management iOS App, add-on for BMN Web App</p><!--Project Subtitle -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 project-item python flask">
+                        <div class="col-md-12 thumbnail" data-toggle="modal" data-target="#bmnModal">
+                            <img class="img-responsive project-image" src="assets/images/portfolio/the_wall.png" alt=""><!--Project thumb -->
+                            <div class="hover-mask">
+                                <h2 class="project-title">The Wall</h2><!--Project Title -->
+                                <p>Socialize your thoughts with Python Flask</p><!--Project Subtitle -->
                             </div>
                         </div>
                     </div>
@@ -431,33 +454,38 @@
                                 </div>
                                 <div class="modal-body">
                                     <div class="row">
-                                        <div class="col-md-4">.col-md-4</div>
-                                        <div class="col-md-4 col-md-offset-4">.col-md-4 .col-md-offset-4</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
-                                        <div class="col-md-2 col-md-offset-4">.col-md-2 .col-md-offset-4</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6 col-md-offset-3">.col-md-6 .col-md-offset-3</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-sm-9">
-                                            Level 1: .col-sm-9
-                                            <div class="row">
-                                                <div class="col-xs-8 col-sm-6">
-                                                    Level 2: .col-xs-8 .col-sm-6
-                                                </div>
-                                                <div class="col-xs-4 col-sm-6">
-                                                    Level 2: .col-xs-4 .col-sm-6
-                                                </div>
-                                            </div>
+                                        <div class="col text-center">
+                                            <img src="assets/images/underconstruction.jpg" style="width: 80%">
                                         </div>
                                     </div>
+                                    <!--<div class="row">-->
+                                        <!--<div class="col-md-4">.col-md-4</div>-->
+                                        <!--<div class="col-md-4 col-md-offset-4">.col-md-4 .col-md-offset-4</div>-->
+                                    <!--</div>-->
+                                    <!--<div class="row">-->
+                                        <!--<div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>-->
+                                        <!--<div class="col-md-2 col-md-offset-4">.col-md-2 .col-md-offset-4</div>-->
+                                    <!--</div>-->
+                                    <!--<div class="row">-->
+                                        <!--<div class="col-md-6 col-md-offset-3">.col-md-6 .col-md-offset-3</div>-->
+                                    <!--</div>-->
+                                    <!--<div class="row">-->
+                                        <!--<div class="col-sm-9">-->
+                                            <!--Level 1: .col-sm-9-->
+                                            <!--<div class="row">-->
+                                                <!--<div class="col-xs-8 col-sm-6">-->
+                                                    <!--Level 2: .col-xs-8 .col-sm-6-->
+                                                <!--</div>-->
+                                                <!--<div class="col-xs-4 col-sm-6">-->
+                                                    <!--Level 2: .col-xs-4 .col-sm-6-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+                                        <!--</div>-->
+                                    <!--</div>-->
                                 </div>
                                 <div class="modal-footer">
-                                    <a type="button" target="_blank" href="http://www.inventory-management.npatel.info/" class="btn btn-info">Go To Project Website</a>
-                                    <a type="button" target="_blank" href="http://www.inventory-management.npatel.info/" class="btn btn-info">Watch YouTube Video</a>
+                                    <a type="button" target="_blank" href="http://www.inventory-management.npatel.info/" class="btn btn-info disabled">Go To Project Website</a>
+                                    <a type="button" target="_blank" href="http://www.inventory-management.npatel.info/" class="btn btn-info disabled">Watch YouTube Video</a>
                                 </div>
                             </div><!-- /.modal-content -->
                         </div><!-- /.modal-dialog -->
@@ -471,32 +499,37 @@
                                 </div>
                                 <div class="modal-body">
                                     <div class="row">
-                                        <div class="col-md-4">.col-md-4</div>
-                                        <div class="col-md-4 col-md-offset-4">.col-md-4 .col-md-offset-4</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
-                                        <div class="col-md-2 col-md-offset-4">.col-md-2 .col-md-offset-4</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6 col-md-offset-3">.col-md-6 .col-md-offset-3</div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-sm-9">
-                                            Level 1: .col-sm-9
-                                            <div class="row">
-                                                <div class="col-xs-8 col-sm-6">
-                                                    Level 2: .col-xs-8 .col-sm-6
-                                                </div>
-                                                <div class="col-xs-4 col-sm-6">
-                                                    Level 2: .col-xs-4 .col-sm-6
-                                                </div>
-                                            </div>
+                                        <div class="col text-center">
+                                            <img src="assets/images/underconstruction.jpg" style="width: 80%">
                                         </div>
                                     </div>
+                                    <!--<div class="row">-->
+                                        <!--<div class="col-md-4">.col-md-4</div>-->
+                                        <!--<div class="col-md-4 col-md-offset-4">.col-md-4 .col-md-offset-4</div>-->
+                                    <!--</div>-->
+                                    <!--<div class="row">-->
+                                        <!--<div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>-->
+                                        <!--<div class="col-md-2 col-md-offset-4">.col-md-2 .col-md-offset-4</div>-->
+                                    <!--</div>-->
+                                    <!--<div class="row">-->
+                                        <!--<div class="col-md-6 col-md-offset-3">.col-md-6 .col-md-offset-3</div>-->
+                                    <!--</div>-->
+                                    <!--<div class="row">-->
+                                        <!--<div class="col-sm-9">-->
+                                            <!--Level 1: .col-sm-9-->
+                                            <!--<div class="row">-->
+                                                <!--<div class="col-xs-8 col-sm-6">-->
+                                                    <!--Level 2: .col-xs-8 .col-sm-6-->
+                                                <!--</div>-->
+                                                <!--<div class="col-xs-4 col-sm-6">-->
+                                                    <!--Level 2: .col-xs-4 .col-sm-6-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+                                        <!--</div>-->
+                                    <!--</div>-->
                                 </div>
                                 <div class="modal-footer">
-                                    <a type="button" target="_blank" href="http://www.inventory-management.npatel.info/" class="btn btn-info">Watch YouTube Video</a>
+                                    <a type="button" target="_blank" href="http://www.inventory-management.npatel.info/" class="btn btn-info disabled">Watch YouTube Video</a>
                                 </div>
                             </div><!-- /.modal-content -->
                         </div><!-- /.modal-dialog -->
@@ -525,226 +558,82 @@
             </div>
         </div>
     </section>
-    <!--=====================================================================================-->
-                                      <!--EXPERIENCE-->
-    <!--=====================================================================================-->
-
-    <section class="p-b-85 p-t-75 p-b-65 p-t-55 bg-master-light" id="experience">
-      <div class="container">
-        <div class="md-p-l-20 xs-no-padding clearfix">
-          <div class="col-sm-4 no-padding">
-            <div class="p-r-40 md-pr-30">
-              <img alt="" class="m-b-20" src="assets/images/Parachute.svg">
-              <h6 class="block-title p-b-5">Launch Design <i class="pg-arrow_right m-l-10"></i></h6>
-              <p class="m-b-30">Awesome notepad app. It gives you a quick and simple notepad editing experience when you write notes.</p>
-              <p class="muted font-arial small-text col-sm-9 no-padding">Icon Fonts, Vector SVG's, pages 14x14px vector icons.</p>
-            </div>
-            <div class="visible-xs b-b b-grey-light m-t-30 m-b-30"></div>
-          </div>
-          <div class="col-sm-4 no-padding">
-            <div class="p-r-40 md-pr-30">
-              <img alt="" class="m-b-20" src="assets/images/Prizemedalion.svg">
-              <h6 class="block-title p-b-5">Award Wining <i class="pg-arrow_right m-l-10"></i></h6>
-              <p class="m-b-30">Quick chat helps you to Keep in touch with your friends and colleagues while working. It has a unique responsive design.</p>
-              <p class="muted font-arial small-text col-sm-9 no-padding">Limitless possibilities, Highly customizable, Great UI & UX</p>
-            </div>
-            <div class="visible-xs b-b b-grey-light m-t-30 m-b-30"></div>
-          </div>
-          <div class="col-sm-4 no-padding">
-            <div class="p-r-40 md-pr-30">
-              <img alt="" class="m-b-20" src="assets/images/Umbrella.svg">
-              <h6 class="block-title p-b-5">Shop ready <i class="pg-arrow_right m-l-10"></i></h6>
-              <p class="m-b-30">This is a very young collection of charts, with the goal of keeping these components very customizable.</p>
-              <p class="muted font-arial small-text col-sm-9 no-padding">Highly customizable NVD3, rickshaw, Spark Lines, D3.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--=====================================================================================-->
-                                        <!--Education-->
-    <!--=====================================================================================-->
-
-    <section class="p-b-85 p-t-75 p-b-65 p-t-55 bg-master-lightest" id="education">
-      <div class="container">
-        <div class="md-p-l-20 xs-no-padding clearfix">
-          <div class="col-sm-4 no-padding">
-            <div class="p-r-40 md-pr-30">
-              <img alt="" class="m-b-20" src="assets/images/Parachute.svg">
-              <h6 class="block-title p-b-5">Launch Design <i class="pg-arrow_right m-l-10"></i></h6>
-              <p class="m-b-30">Awesome notepad app. It gives you a quick and simple notepad editing experience when you write notes.</p>
-              <p class="muted font-arial small-text col-sm-9 no-padding">Icon Fonts, Vector SVG's, pages 14x14px vector icons.</p>
-            </div>
-            <div class="visible-xs b-b b-grey-light m-t-30 m-b-30"></div>
-          </div>
-          <div class="col-sm-4 no-padding">
-            <div class="p-r-40 md-pr-30">
-              <img alt="" class="m-b-20" src="assets/images/Prizemedalion.svg">
-              <h6 class="block-title p-b-5">Award Wining <i class="pg-arrow_right m-l-10"></i></h6>
-              <p class="m-b-30">Quick chat helps you to Keep in touch with your friends and colleagues while working. It has a unique responsive design.</p>
-              <p class="muted font-arial small-text col-sm-9 no-padding">Limitless possibilities, Highly customizable, Great UI & UX</p>
-            </div>
-            <div class="visible-xs b-b b-grey-light m-t-30 m-b-30"></div>
-          </div>
-          <div class="col-sm-4 no-padding">
-            <div class="p-r-40 md-pr-30">
-              <img alt="" class="m-b-20" src="assets/images/Umbrella.svg">
-              <h6 class="block-title p-b-5">Shop ready <i class="pg-arrow_right m-l-10"></i></h6>
-              <p class="m-b-30">This is a very young collection of charts, with the goal of keeping these components very customizable.</p>
-              <p class="muted font-arial small-text col-sm-9 no-padding">Highly customizable NVD3, rickshaw, Spark Lines, D3.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!--=====================================================================================-->
                                           <!--LET'S TALK-->
     <!--=====================================================================================-->
 
-    <section class="p-b-85 p-t-75 p-b-65 p-t-55 bg-master-light" id="let'stalk">
+    <section class="p-b-85 p-t-75 p-b-65 p-t-55 bg-master-light" id="letstalk">
         <div class="container">
             <div class="md-p-l-20 md-p-r-20 xs-no-padding">
                 <div class="row">
-                    <div class="col-sm-6 b-r b-grey xs-b-b b-grey">
-                        <div class="col-sm-10 no-padding">
+                    <div class="col-sm-4 b-r b-grey xs-b-b b-grey">
+                        <div class="col-sm-12 no-padding">
                             <p class="hint-text">Please feel free to reach out to me if you have any questions or comments about me. Also, you could always just send me a friendly <b>Hello</b>.</p>
                             <!--<p class="m-t-30 fs-12 font-arial hint-text col-sm-10 no-padding">Crafted specially, giving attention to detail, this is a celebration of creativity with guaranteed smoothness in UI/UX</p>-->
                         </div>
                         <br>
                         <h5 class="block-title hint-text no-margin">Contact Information</h5>
-                        <br>
-                        <p><span class="semi-bold">Attn:</span> Nishant Patel</p>
-                        <p>Fremont, CA</p>
-                        <p><a href="tel:510-600-9412">(510) 600-9412</a></p>
-                        <p><a href="mailto:hello@npatel.info">hello@npatel.info</a></p>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <br>
+                                <p><span class="semi-bold">Attn:</span> Nishant Patel</p>
+                                <p>San Francisco Bay Area, CA</p>
+                                <p><a href="tel:510-600-9412">(510) 600-9412</a></p>
+                                <p><a href="mailto:hello@npatel.info">hello@npatel.info</a></p>
+                            </div>
+                            <!--<div class="col-md-6">-->
+                                <!--<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="nishant-patel">-->
+                                    <!--<a class="LI-simple-link" href='https://www.linkedin.com/in/nishant-patel?trk=profile-badge' target="_blank">Nishant Patel</a>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        </div>
                     </div>
-                    <div class="col-sm-6 xs-p-t-30">
+                    <div class="col-sm-5 xs-p-t-30">
                         <div class="p-l-30 xs-no-padding">
-                            <form role="form" autocomplete="off" class="m-t-15" id="contact-form" action="_lib/mail.php" method="post">
+                            <form role="form" autocomplete="off" class="m-t-15" id="contact-form" action="https://script.google.com/macros/s/AKfycbyMBsuqUbtTHsWZ4xqprG0642DRE1ADWbFllHUj-moJ5-7gYLOw/exec" method="post">
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="form-group form-group-default required">
-                                            <label class="control-label">First name</label>
-                                            <input title="name" type="text" name="name" class="form-control" required>
+                                            <input id="firstname" placeholder="First Name" title="firstname" type="text" name="firstname" class="form-control" required>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
-                                        <div class="form-group form-group-default">
-                                            <label class="control-label">Last name</label>
-                                            <input title="last-name" type="text" name="last-name" class="form-control" required>
+                                        <div class="form-group form-group-default required">
+                                            <input id="lastname" placeholder="Last Name" title="lastname" type="text" name="lastname" class="form-control" required>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group form-group-default">
-                                    <label class="control-label">Email</label>
-                                    <input title="email" type="email" name="email" class="form-control" required>
+                                <div class="form-group form-group-default required">
+                                    <input id="email" title="email" placeholder="Email" type="email" name="email" class="form-control" required>
                                 </div>
-                                <div class="form-group form-group-default">
-                                    <label class="control-label">Message</label>
-                                    <textarea name="message" placeholder="Send something awesome to my inbox." style="height:100px" class="form-control" required></textarea>
+                                <div class="form-group form-group-default required">
+                                    <textarea id="message" name="message" placeholder="Send something awesome to my inbox." style="height:100px" class="form-control" required></textarea>
                                 </div>
                                 <div class="sm-p-t-10 clearfix">
-                                    <button class="btn btn-black font-montserrat all-caps fs-12 pull-right xs-pull-left">Submit</button>
+                                    <button id="contact-form-submit" class="btn btn-black font-montserrat all-caps fs-12 pull-right xs-pull-left" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Sending Message">Submit</button>
                                 </div>
                                 <div class="clearfix"></div>
                             </form>
                         </div>
+                        <div style="display: none" id="thankyou_message">
+                            <h4 class="text-center semi-bold" style="color: gray">Thanks! Keep an eye on your inbox, I'll reply you ASAP.</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="nishant-patel"><a class="LI-simple-link" href='https://www.linkedin.com/in/nishant-patel?trk=profile-badge'>Nishant Patel</a></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- END CONTENT SECTION -->
-    <!--<section class="text-center">-->
-      <!--<img src="assets/images/showcase.png" alt="" class="image-responsive-width sm-image-responsive-height lazy">-->
-    <!--</section>-->
-    <!--<section class="p-b-65 p-t-60 bg-master-darkest" >-->
-      <!--<div class="container">-->
-        <!--<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">-->
-          <!--<div class="text-center">-->
-            <!--<h5 class="block-title text-white no-margin">Menu Clipping </h5>-->
-            <!--<h1 class="text-white col-sm-12 m-t-5 m-b-30">Celebrate Motion paralax scroll.</h1>-->
-          <!--</div>-->
-          <!--<div class="row m-t-30">-->
-            <!--<div class="col-sm-4">-->
-              <!--<div class="progress progress-small transparent-white m-t-15">-->
-                <!--<div class="progress-bar progress-bar-white" data-pages-animate="progressbar" data-percentage="79%"></div>-->
-              <!--</div>-->
-              <!--<h3 class="no-margin text-white">-->
-                            <!--<span data-animation-duration="800" data-pages-animate="number" data-value="200">0</span>%-->
-                        <!--</h3>-->
-              <!--<p class="font-arial hint-text fs-12 text-white">-->
-                <!--Smoother-->
-              <!--</p>-->
-              <!--<p></p>-->
-            <!--</div>-->
-            <!--<div class="col-sm-4">-->
-              <!--<div class="progress progress-small transparent-white m-t-15">-->
-                <!--<div class="progress-bar progress-bar-white" data-pages-animate="progressbar" data-percentage="79%"></div>-->
-              <!--</div>-->
-              <!--<h3 class=" no-margin text-white">-->
-                            <!--<span data-animation-duration="800" data-pages-animate="number" data-value="200">0</span>%-->
-                        <!--</h3>-->
-              <!--<p class="font-arial hint-text fs-12 text-white">-->
-                <!--Lighter-->
-              <!--</p>-->
-              <!--<p></p>-->
-            <!--</div>-->
-            <!--<div class="col-sm-4">-->
-              <!--<div class="progress progress-small transparent-white m-t-15">-->
-                <!--<div class="progress-bar progress-bar-white" data-pages-animate="progressbar" data-percentage="79%"></div>-->
-              <!--</div>-->
-              <!--<h3 class=" no-margin text-white">-->
-                            <!--<span data-animation-duration="800" data-pages-animate="number" data-value="200">0</span>ma-->
-                        <!--</h3>-->
-              <!--<p class="font-arial hint-text fs-12 text-white">-->
-                <!--Micro Awesomness-->
-              <!--</p>-->
-              <!--<p></p>-->
-            <!--</div>-->
-          <!--</div>-->
-        <!--</div>-->
-      <!--</div>-->
-    <!--</section>-->
-    <!-- BEGIN END SECTION -->
-    <!--&lt;!&ndash; BEGIN BANNER FOOTER&ndash;&gt;-->
-    <!--<section class="p-b-50 p-t-50 ">-->
-      <!--<div class="container p-b-50 p-t-50">-->
-        <!--<div class="col-md-8 col-md-offset-2">-->
-          <!--<div class="col-xs-height col-middle">-->
-            <!--<div class="text-center">-->
-              <!--<h1 class="col-sm-12 p-b-10">Crafted with detail for a great start!-->
-                        <!--front-end plus back-end.</h1>-->
-              <!--<button class="btn btn-lg btn-primary btn-cons btn-rounded" type="button">Explore</button>-->
-              <!--<p class="hint-text font-arial small-text m-t-30"><span class="hint-text">Exclusive only at-->
-                        <!--Envato Marketplace,<br></span> Themeforest See Standard licenses & Extended licenses-->
-              <!--</p>-->
-            <!--</div>-->
-          <!--</div>-->
-        <!--</div>-->
-      <!--</div>-->
-    <!--</section>-->
-    <!--&lt;!&ndash; END  BANNER FOOTER SMALL&ndash;&gt;-->
-    <!-- START FOOTER -->
     <section class="p-b-30 p-t-40 bg-master-darkest">
       <div class="container">
-        <div class="row">
+        <div class="row footer-row">
           <div class="col-sm-4">
             <img src="assets/images/logo_white_2x.png" width="152" height="24" class="logo" alt="">
-            <div class="m-t-10 ">
-              <a href="#" class="link text-white p-r-10 xs-no-padding xs-m-t-10">Click Here to Download my Resume.</a>
-              <!--<ul class="no-style fs-11 no-padding font-arial">-->
-                <!--<li class="inline no-padding"><a href="#about" class="link text-white p-r-10 b-r b-transparent-white">About</a></li>-->
-                <!--<li class="inline no-padding"><a href="#skills" class="link text-white p-l-10 p-r-10 b-r b-transparent-white">Skills</a></li>-->
-                <!--<li class="inline no-padding"><a href="#projects" class="link text-white p-l-10 p-r-10 b-r b-transparent-white">Projects</a></li>-->
-                <!--<li class="inline no-padding"><a href="#experience" class="link text-white p-l-10 p-r-10 b-r b-transparent-white">Experience</a></li>-->
-                <!--<li class="inline no-padding"><a href="#education" class="link text-white p-l-10 p-r-10 xs-no-padding xs-m-t-10">Education</a></li>-->
-              <!--</ul>-->
-            </div>
           </div>
-          <div class=" col-sm-4 text-center pt2">
+          <div class=" col-sm-4 text-center pt2 footer-social-links">
             <!--<p class="icons mt0 mb0 pr2 sm-ml2 md-ml0 sm-mb2 md-mb0 right">-->
             <a href="https://www.linkedin.com/in/nishant-patel/" target="_blank">
               <img src="assets/images/linkedin.svg" width="25">
@@ -770,6 +659,21 @@
       </div>
     </section>
     <!-- END FOOTER -->
+    <script src="">
+        function preload(arrayOfImages) {
+            $(arrayOfImages).each(function(){
+                $('<img/>')[0].src = this;
+                // Alternatively you could use:
+                // (new Image()).src = this;
+            });
+        }
+        preload([
+            'assets/images/skills/backend_django.png',
+            'assets/images/skills/backend_express.png',
+            'assets/images/skills/backend_flask.png'
+        ]);
+
+    </script>
     <!-- BEGIN VENDOR JS -->
     <!-- BEGIN CORE FRAMEWORK -->
     <script src="assets/plugins/pace/pace.min.js" type="text/javascript"></script>
@@ -809,20 +713,115 @@
     <script type="text/javascript" src="assets/js/custom.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
     <script type="text/javascript" src="assets/js/Modernizr.min.js"></script>
-    <script src="public/lib/jquery.scrollTo/jquery.scrollTo.min.js"></script>
+    <!--<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>-->
+
+  <script src="public/lib/jquery.scrollTo/jquery.scrollTo.min.js"></script>
     <script type="text/javascript" async="" src="https://cdn.mouseflow.com/projects/b6280644-983b-4d09-b194-cbedc4a3cd81.js"></script>
     <script src="https://use.fontawesome.com/b4cf32adc4.js"></script>
     <script src="assets/js/modal.js"></script>
     <script>
+        $(window).on('load', (function() {
+            // Animate loader off screen
+            $(".se-pre-con").fadeOut("slow");
+        }));
         jQuery(function () {
             $(document).on('shown.bs.tab', 'a[data-toggle="tab"]', function (e) {
                 window.dispatchEvent(new Event('resize'));
             });
-            var cw = $('.skill-item').width();
-            $('.skill-item').css({'height': cw + 'px'});
+//            var cw = $('.skill-item').width();
+//            var imgWidth = $('.skill-item img').width();
+//            $('.skill-item').css({'height': cw + 'px'});
+//            $('.skill-item img').css({'height': imgWidth + 'px'});
+
+            console.log($('.skill-item').width(), $('.skill-item').height());
 
         });
     </script>
     <!-- END PAGES LIB -->
+    <script type='text/javascript'>
+        /* attach a submit handler to the form */
+        var $this = null;
+        $('.btn').on('click', function() {
+            $this = $(this);
+        });
+        $("#contact-form").submit(function(event) {
+
+            $this.button('loading');
+
+            /* stop form from submitting normally */
+            event.preventDefault();
+
+            /* get the action attribute from the <form action=""> element */
+            var $form = $( this ),
+                url = $form.attr( 'action' );
+
+            /* Send the data using post with element id name and name2*/
+            var posting = $.post( url, { firstname: $('#firstname').val(), lastname: $('#lastname').val(), email: $('#email').val(), message: $('#message').val() } );
+
+            /* Alerts the results */
+            posting.done(function( data ) {
+                $this.button('reset');
+                $('#thankyou_message').css('display', 'block');
+                $('#firstname').val(null)
+                $('#lastname').val(null)
+                $('#email').val(null)
+                $('#message').val(null)
+                setTimeout(function() {
+                    $('#thankyou_message').css('display', 'none');
+                }, 8000);
+                return false;
+            });
+        });
+    </script>
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+    <!--<script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>-->
+    <script type="text/javascript">
+//        $('body').prepend('<a href="#page-top" class="back-to-top">Back to Top</a>');
+        $('body').prepend('<button class="btn btn-sm btn-rounded" onclick="topFunction()" id="topBtn"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span></button>');
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+//                document.getElementById("topBtn").style.display = "block";
+                $('#topBtn').fadeIn('slow');
+            } else {
+//                document.getElementById("topBtn").style.display = "none";
+                $('#topBtn').fadeOut('slow');
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Chrome, Safari and Opera
+            document.documentElement.scrollTop = 0; // For IE and Firefox
+        }
+//        var amountScrolled = 300;
+
+//        $(window).scroll(function() {
+//            if ( $(window).scrollTop() > amountScrolled ) {
+//                $('a.back-to-top').fadeIn('slow');
+//            } else {
+//                $('a.back-to-top').fadeOut('slow');
+//            }
+//        });
+////
+//        $('a.back-to-top').click(function() {
+//            $('html, body').animate({
+//                scrollTop: 0
+//            }, 700);
+//            return false;
+//        });
+
+        $(document).load(
+            function (e) {
+                
+            }
+        )
+
+
+
+
+    </script>
   </body>
 </html>

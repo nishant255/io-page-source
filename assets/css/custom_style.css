@@ -10,6 +10,148 @@
     }
 }
 
+@media (max-width: 992px) {
+    .left-menu {
+        width: inherit;
+    }
+    .right-menu {
+        width: inherit;
+    }
+
+    .right-menu-list a {
+        text-align: left;
+    }
+
+    .footer-row {
+        text-align: center;
+    }
+
+    .footer-row p {
+        text-align: center;
+    }
+
+    .footer-social-links {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 575px) {
+    .skill-item {
+        width: 50%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .skill-item {
+        width: 25%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .skill-item {
+        width: 16.66%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .skill-item {
+        width: 12.5%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .skill-item {
+        width: 10%;
+    }
+}
+
+
+/*a.back-to-top {*/
+    /*display: none;*/
+    /*width: 60px;*/
+    /*height: 60px;*/
+    /*text-indent: -9999px;*/
+    /*position: fixed;*/
+    /*z-index: 999;*/
+    /*right: 20px;*/
+    /*bottom: 20px;*/
+    /*background: gray url("./../../up-arrow.png") no-repeat center 43%;*/
+    /*-webkit-border-radius: 30px;*/
+    /*-moz-border-radius: 30px;*/
+    /*border-radius: 30px;*/
+/*}*/
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(./../images/simple-pre-loader/gears.svg) center no-repeat black;
+}
+
+.se-pre-con h2 {
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+    padding: 0 10%;
+}
+
+
+#topBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: black; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#topBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+input::-webkit-input-placeholder {
+     color: gray !important;
+ }
+ 
+input:-moz-placeholder { /* Firefox 18- */
+    color: gray !important;
+}
+ 
+input::-moz-placeholder {
+    color: gray !important;
+}
+ 
+input:-ms-input-placeholder {
+    color: gray !important;
+}
+
+textarea::-webkit-input-placeholder {
+    color: gray !important;
+}
+ 
+textarea:-moz-placeholder { /* Firefox 18- */
+    color: gray !important;
+}
+ 
+textarea::-moz-placeholder {
+    color: gray !important;
+}
+ 
+textarea:-ms-input-placeholder {
+    color: gray !important;
+}
+
 /*--------------------
 -----Main Styles------
 ----------------------*/
@@ -20,7 +162,6 @@ body {
     font-family: sans-serif;
 }
 
-
 .panel.project-panel {
     background-color: lightgrey;
     border: none;
@@ -30,8 +171,23 @@ body {
     border: none;
 }
 
-.project-item {
+.left-menu {
+    width: 40%;
+}
 
+.right-menu {
+    width: 40%;
+}
+
+.header-inner .menu {
+    width: 100%;
+}
+
+.left-menu-list {
+    padding-right: 15%;
+}
+.right-menu-list {
+    padding-left: 15%;
 }
 
 /* ---- skills button ---- */
@@ -119,7 +275,7 @@ body {
 .skill-item {
     position: relative;
     float: left;
-    /*width: 16.66%;*/
+    /*width: 10%;*/
     /*padding-top: 70%;*/
     text-align: center;
     margin-top: 0.5%;
@@ -132,8 +288,8 @@ body {
 }
 
 .skill-item img {
-    width: 70%;
-    height: inherit;
+    width: 50%;
+    height: auto;
     margin: 5%;
 }
 
@@ -1591,7 +1747,7 @@ a:focus, .btn:focus {
     background: transparent;
     border-radius: 5px;
     border-color: #777;
-    color: #fff;
+    color: gray;
     outline: none;
     height: 52px;
     font-weight: 300;
