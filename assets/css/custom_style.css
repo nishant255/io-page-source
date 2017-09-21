@@ -1,6 +1,10 @@
 @media all and (orientation: portrait){
-    #slider_dark {
-
+    .vertical-center {
+        margin-top: 20%;
+    }
+    .vertical-center img {
+        padding: 5%;
+        width: 30%;
     }
 }
 
@@ -100,6 +104,13 @@
     padding: 0 10%;
 }
 
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
+}
 
 #topBtn {
     display: none; /* Hidden by default */
